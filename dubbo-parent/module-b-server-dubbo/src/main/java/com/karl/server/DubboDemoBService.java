@@ -1,6 +1,6 @@
-package com.karl.server.dubbo;
+package com.karl.server;
 
-import com.karl.server.DemoBServiceImpl;
+import com.karl.b.DemoBServiceImpl;
 import org.apache.dubbo.config.annotation.Service;
 
 /**

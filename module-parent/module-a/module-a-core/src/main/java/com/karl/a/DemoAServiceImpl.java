@@ -1,9 +1,8 @@
-package com.karl.a.server;
+package com.karl.a;
 
 import com.karl.a.config.AConfig;
-import com.karl.b.server.DemoBService;
+import com.karl.b.DemoBService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;

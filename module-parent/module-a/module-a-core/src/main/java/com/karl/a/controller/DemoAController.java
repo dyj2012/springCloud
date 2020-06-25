@@ -1,6 +1,6 @@
 package com.karl.a.controller;
 
-import com.karl.a.server.DemoAService;
+import com.karl.a.DemoAService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,7 +20,7 @@ public class DemoAController {
     DemoAService demoAService;
 
     @GetMapping("/test")
-    public void test(){
+    public void test() {
         demoAService.hello();
     }
 }

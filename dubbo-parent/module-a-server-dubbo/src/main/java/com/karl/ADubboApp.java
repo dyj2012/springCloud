@@ -17,7 +17,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 public class ADubboApp {
 
     public static void main(String[] args) {
-        SpringApplication.run(ADubboApp.class,args);
+        SpringApplication.run(ADubboApp.class, args);
     }
 }
 

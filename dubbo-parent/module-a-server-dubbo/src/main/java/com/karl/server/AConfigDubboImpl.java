@@ -1,7 +1,7 @@
-package com.karl.server.dubbo;
+package com.karl.server;
 
 import com.karl.a.config.AConfig;
-import com.karl.b.server.DemoBService;
+import com.karl.b.DemoBService;
 import org.apache.dubbo.config.annotation.Reference;
 import org.apache.dubbo.config.annotation.Service;
 
@@ -12,7 +12,7 @@ import org.apache.dubbo.config.annotation.Service;
  * @date 2019/10/31
  */
 @Service
-public class DubboAConfigImpl implements AConfig {
+public class AConfigDubboImpl implements AConfig {
 
     @Reference(version = "1.0.0")
     DemoBService demoBServer;

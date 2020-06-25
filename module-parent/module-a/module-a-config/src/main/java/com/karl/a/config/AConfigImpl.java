@@ -1,6 +1,6 @@
 package com.karl.a.config;
 
-import com.karl.b.server.DemoBService;
+import com.karl.b.DemoBService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

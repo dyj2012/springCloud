@@ -1,4 +1,4 @@
-package com.karl.b.server;
+package com.karl.b;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;

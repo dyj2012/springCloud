@@ -78,22 +78,5 @@
             <artifactId>nacos-config-spring-boot-starter</artifactId>
             <version>${nacos-config-spring-boot.version}</version>
         </dependency>
-
     </dependencies>
-
-
-    <dependencyManagement>
-        <dependencies>
-            <!-- Apache Dubbo  -->
-            <!--<dependency>-->
-                <!--<groupId>org.apache.dubbo</groupId>-->
-                <!--<artifactId>dubbo-dependencies-bom</artifactId>-->
-                <!--<version>${dubbo.version}</version>-->
-                <!--<type>pom</type>-->
-                <!--<scope>import</scope>-->
-            <!--</dependency>-->
-        </dependencies>
-
-    </dependencyManagement>
-
 </project>

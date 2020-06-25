@@ -1,6 +1,6 @@
 package com.karl.a.config;
 
-import com.karl.b.server.DemoBService;
+import com.karl.b.DemoBService;
 
 /**
  * 模块配置

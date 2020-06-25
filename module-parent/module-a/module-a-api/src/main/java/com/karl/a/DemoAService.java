@@ -1,4 +1,4 @@
-package com.karl.a.server;
+package com.karl.a;
 
 /**
  * a服务
