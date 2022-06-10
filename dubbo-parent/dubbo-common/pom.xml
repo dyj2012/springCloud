@@ -17,7 +17,7 @@
         <nacos.version>0.2.1.RELEASE</nacos.version>
         <nacos-config-spring-boot.version>0.2.1</nacos-config-spring-boot.version>
         <dubbo-registry-nacos.version>0.0.2</dubbo-registry-nacos.version>
-        <dubbo.version>2.6.7</dubbo.version>
+        <dubbo.version>2.6.12</dubbo.version>
         <nacos-client.verison>1.0.0</nacos-client.verison>
     </properties>
 
